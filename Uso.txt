@@ -1,0 +1,24 @@
+Inicio servidor:
+java ServerTftp
+
+Inicio cliente:
+java ClientTftp 127.0.0.1
+
+Login:
+LOGIN <usuario> <contraseña>
+
+Listar archivos:
+LIST <token>
+
+Descargar archivo:
+GET <token> <nombre_fichero>
+
+Subir archivo (solo registrado):
+PUT <token> <nombre_fichero>
+
+Borrar archivo (solo registrado):
+DELETE <token> <nombre_fichero>
+
+Usuario anonymous:
+Usuario: anonymous
+Contraseña: anonymous
